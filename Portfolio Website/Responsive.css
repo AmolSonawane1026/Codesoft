@@ -1,0 +1,309 @@
+@media screen and (max-width: 769px) {
+  /* ------------navbar section----------------- */
+  .nav-li a {
+    font-size: 20px;
+  }
+
+  .main-overlay h1 {
+    font-size: 60px;
+  }
+  .main-overlay h2 {
+    font-size: 40px;
+  }
+  .main-overlay h4 {
+    font-size: 20px;
+  }
+  .span-imge img {
+    height: 40px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  /* ---------------second section---------------- */
+  #second-section {
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    gap: 40px;
+  }
+  .second-left {
+    height: 40%;
+    width: 500px;
+  }
+
+  .second-right h1 {
+    text-align: center;
+  }
+
+  /* ----------------Third section---------------- */
+  .heading h1 {
+    font-weight: 500;
+    font-size: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+  }
+  #third-section {
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+  }
+  .third-box {
+    height: 370px;
+    width: 300px;
+  }
+
+  .third-overlay h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .third-overlay a {
+    color: white;
+    font-size: 14px;
+
+    padding: 10px 22px;
+  }
+
+  /* --------------forth section---------------- */
+  #forth-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forth-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+    margin-top: 30px;
+  }
+
+  /* ----------------fifth section------------ */
+  #fifth-section {
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .form-lower textarea {
+    height: 150px;
+    width: 500px;
+  }
+  .form-upper input {
+    height: 35px;
+    width: 245px;
+  }
+  .form-btn {
+    padding: 10px 60px;
+
+    font-size: 13px;
+
+    margin-top: 7px;
+  }
+
+  /* ------------------sixth section-------------- */
+  .social-links a img {
+    height: 28px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .nav-ul {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    transition: all 0.4s ease;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e3e3e3;
+    width: 100%;
+    height: 100vh;
+    gap: 35px;
+  }
+  .nav-ul li a {
+    font-size: 27px;
+    margin: 10px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-ul.active {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  #navbar {
+    justify-content: flex-end;
+
+    padding-right: 20px;
+  }
+  /* .nav-ul {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  } */
+
+  .main-overlay h1 {
+    font-size: 40px;
+  }
+  .main-overlay h2 {
+    font-size: 20px;
+  }
+  .main-overlay h4 {
+    font-size: 15px;
+  }
+  .span-imge img {
+    height: 30px;
+  }
+
+  .second-left {
+    height: 50%;
+    width: 300px;
+  }
+
+  .second-main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-main-btn button {
+    padding: 10px 35px;
+    font-size: 12px;
+  }
+  .heading h1 {
+    font-size: 28px;
+  }
+
+  #fifth-section {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .fifth-box {
+    height: 75%;
+    width: 400px;
+
+    padding: 30px 20px;
+  }
+  .form-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-upper input {
+    height: 35px;
+    width: 300px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid #f95959;
+    border-radius: 3px;
+    background-color: #e3e3e3;
+  }
+  .form-lower textarea {
+    height: 150px;
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+  .form-btn {
+    padding: 10px 50px;
+
+    font-size: 12px;
+  }
+  .social-links a img {
+    height: 23px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .second-main-btn button {
+    padding: 10px 30px;
+    font-size: 11px;
+  }
+
+  .fifth-box {
+    height: 85%;
+    width: 350px;
+  }
+  .form-upper input {
+    height: 33px;
+    width: 260px;
+  }
+  .form-lower textarea {
+    height: 130px;
+    width: 260px;
+  }
+  .form-btn {
+    padding: 10px 40px;
+
+    font-size: 12px;
+  }
+  .social-links a img {
+    height: 20px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .second-main-btn button {
+    padding: 10px 30px;
+    font-size: 8px;
+  }
+
+  .heading h1 {
+    font-size: 25px;
+  }
+
+  .main-overlay h1 {
+    font-size: 30px;
+  }
+  .main-overlay h2 {
+    font-size: 18px;
+  }
+  .main-overlay h4 {
+    font-size: 13px;
+  }
+  .span-imge img {
+    height: 27px;
+  }
+
+  .fifth-box {
+    height: 95%;
+    width: 300px;
+  }
+  .form-upper input {
+    height: 33px;
+    width: 260px;
+  }
+  .form-lower textarea {
+    height: 130px;
+    width: 260px;
+  }
+  .form-btn {
+    padding: 10px 40px;
+
+    font-size: 12px;
+  }
+}
